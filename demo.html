@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marksheet Table</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 70%;
+            margin: 50px auto;
+            background-color: white;
+            text-align: center;
+        }
+
+        th{
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+        }
+
+        td{
+            padding: 10px;
+        }
+
+        tr:nth-child(even){
+            background-color: #f9f9f9;
+        }
+
+        tr:hover{
+            background-color: #ddd;
+        }
+
+        table, th, td{
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+
+<table>
+
+    <tr>
+        <th rowspan="2">Sr.</th>
+        <th rowspan="2">S.N</th>
+        <th colspan="4">Sub</th>
+        <th rowspan="2">Total</th>
+        <th rowspan="2">Marks Obt.</th>
+    </tr>
+
+    <tr>
+        <th>Math</th>
+        <th>OS</th>
+        <th>Hindi</th>
+        <th>English</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Md Hasan</td>
+        <td>33</td>
+        <td>38</td>
+        <td>46</td>
+        <td>39</td>
+        <td>156</td>
+        <td>Pass</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Sonu</td>
+        <td>80</td>
+        <td>75</td>
+        <td>70</td>
+        <td>84</td>
+        <td>309</td>
+        <td>Pass</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Santosh</td>
+        <td>90</td>
+        <td>88</td>
+        <td>75</td>
+        <td>95</td>
+        <td>348</td>
+        <td>Pass</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
